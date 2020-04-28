@@ -1,0 +1,6 @@
+configparser
+psycopg2
+sqlalchemy
+pandas
+matplotlib
+seaborn
