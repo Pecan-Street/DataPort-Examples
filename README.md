@@ -39,7 +39,7 @@ At the top of the file there's a constant set to limit the size of the dataset t
 `LIMIT = 10000`
 
 This is there because the dataset is quite large, and can take a long time to load, but this will limit 
-time covered to a few months. Change it to `LIMIT = None` to red the entire dataset.
+time covered to a few months. Change it to `LIMIT = None` to read the entire dataset.
 
 To run the example execute from the `examples/flat_file` directory:
 
