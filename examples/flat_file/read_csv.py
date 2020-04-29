@@ -26,7 +26,7 @@ dataids = metadata[metadata.active_record.eq('yes') &
 
 
 # read the 15 minute data file for Austin
-all_data = metadata = pd.read_csv('15minute_data_austin.csv', engine='python', encoding="ISO-8859-1",
+all_data = pd.read_csv('15minute_data_austin.csv', engine='python', encoding="ISO-8859-1",
                                   parse_dates=['local_15min'], index_col=['local_15min'],
                                   usecols=['dataid', 'local_15min', 'grid'],
                                   nrows=LIMIT)
