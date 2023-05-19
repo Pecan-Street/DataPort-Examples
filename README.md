@@ -56,5 +56,9 @@ To run this example execute from the `examples/database` directory:
 
 `python3 eclipse.py`
 
+## Dataport CSV to HDF Conversion
+The kind folks at the NILMTK [repo](https://github.com/nilmtk/nilmtk) have contributed a converter for our Dataport CSV data to HDF. You can find the converter 
+[here](https://github.com/nilmtk/nilmtk/tree/master/nilmtk/dataset_converters/dataport). 
+
 ## Contribute:
 We're happy to take contributions! Submit a pull request to this repo!
